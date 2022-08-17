@@ -31,6 +31,7 @@ import { MintButton } from './MintButton';
 import { GatewayProvider } from '@civic/solana-gateway-react';
 import { sendTransaction } from './connection';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
+import { startWlDate } from './launch';
 
 const ConnectButton = styled(WalletDialogButton)`
   width: 100%;
@@ -503,8 +504,8 @@ const Home = (props: HomeProps) => {
   }, [refreshCandyMachineState]);
 
   return (
-    <Container style={{ marginTop: 100 }}>
-      <Container maxWidth="xs" style={{ position: 'relative' }}>
+    <Container style={{ marginTop: 25 }}>
+      <Container style={{ position: 'relative' }}>
         <Paper
           style={{
             padding: 24,
@@ -539,7 +540,11 @@ const Home = (props: HomeProps) => {
                     </Typography>
                   </Grid>
                   <Grid item xs={4}>
-                    <Typography variant="body2" color="textSecondary">
+                    <Typography
+                      style={{ textAlign: 'center' }}
+                      variant="body2"
+                      color="textSecondary"
+                    >
                       {isWhitelistUser && discountPrice
                         ? 'Discount Price'
                         : 'Price'}
@@ -547,7 +552,7 @@ const Home = (props: HomeProps) => {
                     <Typography
                       variant="h6"
                       color="textPrimary"
-                      style={{ fontWeight: 'bold' }}
+                      style={{ fontWeight: 'bold', textAlign: 'center' }}
                     >
                       {isWhitelistUser && discountPrice
                         ? `◎ ${formatNumber.asNumber(discountPrice)}`
@@ -587,7 +592,7 @@ const Home = (props: HomeProps) => {
                               ? 'COMPLETED'
                               : isPresale
                               ? 'PRESALE'
-                              : 'LIVE'
+                              : 'MINT'
                           }
                           onComplete={() => toggleMintButton(currentShift)}
                         />
@@ -601,9 +606,7 @@ const Home = (props: HomeProps) => {
                               align="center"
                               display="block"
                               style={{ fontWeight: 'bold' }}
-                            >
-                              UNTIL PUBLIC MINT
-                            </Typography>
+                            ></Typography>
                           )}
                       </>
                     )}
@@ -710,7 +713,10 @@ const Home = (props: HomeProps) => {
                     onMint={onMint}
                     isActive={
                       isActive ||
-                      (isPresale && isWhitelistUser && isValidBalance)
+                      (isPresale &&
+                        isWhitelistUser &&
+                        isValidBalance &&
+                        new Date() > startWlDate)
                     }
                   />
                 )}
@@ -722,9 +728,7 @@ const Home = (props: HomeProps) => {
             align="center"
             display="block"
             style={{ marginTop: 7, color: 'grey' }}
-          >
-            Powered by METAPLEX
-          </Typography>
+          ></Typography>
         </Paper>
       </Container>
 

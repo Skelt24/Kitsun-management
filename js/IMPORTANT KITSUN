@@ -1,0 +1,25 @@
+First token (OG): EDk5ok5mRYYYCaJwKXiqJPWoe32xtLnaoD6G4JstDFio
+Token account : HamfdSzzRMQkYiiRK3PT2PSKKH4C3B1uEt26QKw9Gx8n
+Actual supply : 100 + 500 + 5000
+
+Second token (WL) : Z9pxKH6W9LpMAsVPw6zaBC1LniY1inFCHKxKyF1bMwC
+Token account : B5ofvbYApe6T98GYzLUfocuLZryjUTb4JdQsLpLyycur
+Actual supply : 300 + 700 + 5000
+
+
+Candy machine address:  HZVMdbXaNxaFE5Nz5NabYiscZbbzKtEovvrqHJGcGrrW
+Collection metadata address:  kB2aqY13WKAtxZuNRgoHeMSe8gtJiKesG2tWBjMFstQ
+Collection metadata authority:  8FkZdYtJm3t3viLfwwaemJwsypgEUi23eUvLfzmmQ81H
+Collection master edition address:  2t1fx7ohXSLj3rz73dKjPMpyLVW4sTmpSEQBVPAxRLvN
+Collection mint address:  2YP3f9qiQCF6kqVwui96fcYmibjEA1utX8dUYaPkmzJH
+Collection PDA address:  3tz2Qb81DgxJKHuSoxAa75PEU1VkzWvYYk1QtH6JDCuy
+Collection authority record address:  GD1NKXporNvUDTCBLhc6YtMM15MY1T5HQHvXSzXks4WG
+Collection:  {
+  collectionMetadata: 'kB2aqY13WKAtxZuNRgoHeMSe8gtJiKesG2tWBjMFstQ',
+  collectionPDA: '3tz2Qb81DgxJKHuSoxAa75PEU1VkzWvYYk1QtH6JDCuy',
+  txId: '5WWo4eqZqjiu7udipun5aQtTgfjfQfgudP3PirbXWr8iwQ585TmwbhiPJXuzmtvWT8kG1m91Y54ffDfrUCtBEhW9'
+}
+
+The name of the founder is corrected, and source files are up to date as well as the demo website.
+
+5LQtqsqLZQeJVa6Uzat8CDwBgwZDcdMiBk1ctXZvFqCd

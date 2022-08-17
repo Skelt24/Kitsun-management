@@ -1,0 +1,78 @@
+{
+	"name": "Kitsune Foxes Squad #518",
+	"description": "A long time ago, few humans found some powerful Kitsunes deep in the lost country side of Japan. Kitsunes are Japanese foxes that possess paranormal abilities that increase as they get older and wiser. The Humans related with the Kitsunes and the Kitsunes showed selected Humans their mystical powers to be used in battles and self protection. During fights, the Humans transform into their powerful Kitsune masks to get the mystical power. The Kitsune Fighters used their magical powers to help create a peaceful world where Kitsunes and humans live in harmony, devoting all their energy to constantly improving this sacred connection",
+	"image": "518.png",
+	"dna": "625377eb9c9b58610c074c5d5af471269a3743fe",
+	"edition": 518,
+	"attributes": [
+		{
+			"trait_type": "Background",
+			"value": "purple"
+		},
+		{
+			"trait_type": "Accessories",
+			"value": "Hrawa"
+		},
+		{
+			"trait_type": "Men",
+			"value": "Men"
+		},
+		{
+			"trait_type": "Scars",
+			"value": "n"
+		},
+		{
+			"trait_type": "Tatto",
+			"value": "Oiseu"
+		},
+		{
+			"trait_type": "Eyes",
+			"value": "warm eye"
+		},
+		{
+			"trait_type": "Mouths",
+			"value": "longue dog"
+		},
+		{
+			"trait_type": "Hat",
+			"value": "Dark caps"
+		},
+		{
+			"trait_type": "Mask",
+			"value": "s"
+		},
+		{
+			"trait_type": "Apparels",
+			"value": "shirtless II"
+		},
+		{
+			"trait_type": "Fox",
+			"value": "E"
+		},
+		{
+			"trait_type": "Effects",
+			"value": "dfgtr"
+		}
+	],
+	"seller_fee_basis_points": 800,
+	"symbol": "KFS",
+	"collection": {
+		"name": "Kitsune Foxes Squad",
+		"family": "Kitsune Foxes Squad"
+	},
+	"properties": {
+		"files": [
+			{
+				"uri": "",
+				"type": ""
+			}
+		],
+		"category": "",
+		"creators": [
+			{
+				"address": "5LQtqsqLZQeJVa6Uzat8CDwBgwZDcdMiBk1ctXZvFqCd",
+				"share": 100
+			}
+		]
+	}
+}
